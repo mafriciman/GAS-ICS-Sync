@@ -24,7 +24,7 @@ var sourceCalendars = [                // The ics/ical urls that you want to get
   
 ];
 
-var howFrequent = 15;                  // What interval (minutes) to run this script on to check for new events
+var howFrequent = 5;                  // What interval (minutes) to run this script on to check for new events
 var onlyFutureEvents = false;          // If you turn this to "true", past events will not be synced (this will also removed past events from the target calendar if removeEventsFromCalendar is true)
 var addEventsToCalendar = true;        // If you turn this to "false", you can check the log (View > Logs) to make sure your events are being read correctly before turning this on
 var modifyExistingEvents = true;       // If you turn this to "false", any event in the feed that was modified after being added to the calendar will not update
